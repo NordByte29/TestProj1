@@ -12,8 +12,7 @@ class ViewController: UIViewController {
     @objc
        func loginButtonTap() {
    print("кнопка нажата")
-           
-           let SecondViewController = ViewController()
+           let SecondViewController = SecondViewController()
            navigationController?.pushViewController(SecondViewController as! UIViewController, animated: true)
    }
     let imageView = UIImageView()
