@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @objc
        func loginButtonTap() {
    print("кнопка нажата")
+           
            let SecondViewController = ViewController()
            navigationController?.pushViewController(SecondViewController as! UIViewController, animated: true)
    }
